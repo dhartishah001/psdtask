@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Troopy Stack</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #fff;
+      }
+
+      /* Navbar */
+      .navbar {
+        background-color: #111;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+      }
+
+      .navbar .logo {
+        display: flex;
+        align-items: center;
+      }
+
+      .navbar .logo img {
+        width: 50%;
+        margin-right: 10px;
+      }
+
+      .navbar ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+      }
+
+      .navbar ul li {
+        color: white;
+        cursor: pointer;
+      }
+
+      .navbar .login-btn {
+        border: 1px solid white;
+        background: transparent;
+        padding: 6px 16px;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+      }
+
+      /* Hero Section */
+      .hero {
+        background-color: #fff4e9;
+        padding: 80px 20px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+
+      /* .hero img.main-logo {
+      width: 100px;
+      margin-bottom: 20px;
+    } */
+      .hero img.main-logo {
+        width: 30%; /* increase the size */
+        margin-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      /* .hero img.main-logo {
+        width: 150px;
+        display: block;
+        margin: 0 auto 20px auto;
+      } */
+
+      .hero h1 {
+        font-size: 36px;
+        font-weight: bold;
+        margin: 10px 0;
+      }
+
+      .hero p {
+        font-size: 16px;
+        color: #444;
+        margin: 10px 0 30px;
+      }
+
+      .hero .cta-button {
+        background-color: orange;
+        border: none;
+        padding: 12px 28px;
+        border-radius: 20px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      /* Floating icons */
+      .icon {
+        position: absolute;
+        width: 8%;
+      }
+
+      .icon.react {
+        top: 100px;
+        left: 80px;
+      }
+      .icon.angular {
+        top: 220px;
+        left: 30px;
+      }
+      .icon.py-left {
+        bottom: 60px;
+        left: 180px;
+      }
+      .icon.py-right {
+        bottom: 60px;
+        right: 180px;
+      }
+      .icon.figma {
+        top: 100px;
+        right: 80px;
+      }
+      .icon.node {
+        top: 220px;
+        right: 30px;
+      }
+    </style> -->
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header class="navbar">
+      <div class="logo">
+        <img src="./assets/img/logo.png" alt="Logo" />
+        <!-- <strong>Troopy Stack</strong> -->
+      </div>
+      <ul>
+        <li>Explore</li>
+        <li>Home</li>
+        <li>Courses</li>
+        <li>Blog</li>
+        <li>Shop</li>
+        <li>Pages</li>
+        <li>Contact</li>
+      </ul>
+      <button class="login-btn">Log in</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero contener">
+      <img src="./assets/img/logo.png" alt="Hero Logo" class="main-logo" />
+      <h1>Education And Online Courses</h1>
+      <p>
+        Best For Online Courses, University, College, School, Training Center &
+        Other Institutes
+      </p>
+      <button class="cta-button">Get Consultation</button>
+
+      <!-- Floating icons -->
+      <img src="./assets/img/react-icon.png" alt="React" class="icon react" />
+      <img src="./assets/img/js-icon.png" alt="Angular" class="icon angular" />
+      <img
+        src="./assets/img/python-logo.png"
+        alt="Python Left"
+        class="icon py-left"
+      />
+      <img
+        src="./assets/img/react-icon.png"
+        alt="Python Right"
+        class="icon py-right"
+      />
+      <img src="./assets/img/python-logo.png" alt="Figma" class="icon figma" />
+      <img src="./assets/img/a-icon.png" alt="Node" class="icon node" />
+    </section>
+
+    <!------------------------------------------------------- <section></section> --------------------------------------------------------->
+
+    <section>
+      <div class="contener">
+        <div class="d-flex">
+          <div class="col-50">
+            <div class="sec-two-h2">
+              <h2>Transform Your Life Through Online Education</h2>
+            </div>
+            <div class="sec-two-p">
+              <p>
+                Instructors from around the world teach millions of students on
+                Troopy Stack. We provide the tools and skills to teach what you
+                love. And you can also achieve your goal.
+              </p>
+            </div>
+            <div>
+              <img src="./assets/img/sec-two-video.png" alt="" />
+            </div>
+          </div>
+          <div class="col-50">
+            <div class="sec-two-img">
+              <img src="./assets/img/sec-two-img.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------- <section></section> ------------------------------------->
+
+    <section>
+      <div class="contener">
+        <div class="sec-three sec-three-card-link">
+          <div class="sec-three-h3 gradient-text">
+            <h3>WE ARE OFFRING</h3>
+          </div>
+          <div class="d-flex">
+            <div>
+              <h4>Job Bootcamp <button>New Launched</button></h4>
+              <br />
+              <img src="./assets/img/sec-three-link.png" alt="" />
+              <img src="./assets/img/sec-three-link2.png" alt="" />
+            </div>
+          </div>
+          <div>
+            <h4>Certification <button>For professionals</button></h4>
+            <img src="./assets/img/sec-three-link3 (2).png" alt="" />
+            <h4>TechVarsity <button>For college students</button></h4>
+            <img src="./assets/img/sec-three-link4 (1).png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <div class="gradient-background">
+      <h1 class="gradient-text">GRADIENT TEXT</h1>
+    </div> -->
+    <!------------------------------- <section></section> ------------------------------------->
+
+    <section>
+      <div class="contener">
+        <div class="sec-four text">
+          <div class="sec-four-h4">
+            <h4>Why Troopy Stack</h4>
+            <h5>Why us</h5>
+          </div>
+          <div class="d-flex jsc">
+            <div class="col-25 sec-four-card">
+              <img src="./assets/img/sec-four-icon (1).png" alt="" />
+              <h6>Always Interactive Learning</h6>
+              <p>
+                Instructors from around the world teach millions of students on
+                Troopy Stack through video.
+              </p>
+            </div>
+            <div class="col-25 sec-four-card">
+              <img src="./assets/img/sec-four-icon (2).png" alt="" />
+              <h6>Always Interactive Learning</h6>
+              <p>
+                Instructors from around the world teach millions of students on
+                Troopy Stack through video.
+              </p>
+            </div>
+            <div class="col-25 sec-four-card">
+              <img src="./assets/img/sec-four-icon (3).png" alt="" />
+              <h6>Always Interactive Learning</h6>
+              <p>
+                Instructors from around the world teach millions of students on
+                Troopy Stack through video.
+              </p>
+            </div>
+            <div class="col-25 sec-four-card">
+              <img src="./assets/img/sec-four-icon (4).png" alt="" />
+              <h6>Always Interactive Learning</h6>
+              <p>
+                Instructors from around the world teach millions of students on
+                Troopy Stack through video.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------- <section></section> ------------------------------------->
+    <section>
+      <div class="contener">
+        <div class="domains-section sec-five-text">
+          <h1 class="background-heading">DOMAINS</h1>
+          <div class="content">
+            <h2>Explore Top Career Domains</h2>
+            <p>
+              Discover career paths that truly resonate with your passion &
+              explore mentorship programs that align perfectly with you.
+            </p>
+
+            <div class="card-grid">
+              <div class="card">
+                <img src="assets/img/sec-five-icon (1).png " alt="Web Dev" />
+                <h3>Web Development</h3>
+                <a href="#">See Programs ›</a>
+              </div>
+              <div class="card">
+                <img src="assets/img/sec-five-icon (2).png" alt="App Dev" />
+                <h3>App Development</h3>
+                <a href="#">See Programs ›</a>
+              </div>
+              <div class="card">
+                <img src="assets/img/sec-five-icon (3).png" alt="Data" />
+                <h3>Data Analytics</h3>
+                <a href="#">See Programs ›</a>
+              </div>
+              <div class="card">
+                <img src="assets/img/sec-five-icon (4).png" alt="Marketing" />
+                <h3>Digital Marketing</h3>
+                <a href="#">See Programs ›</a>
+              </div>
+              <div class="card">
+                <img src="assets/img/sec-five-icon (4).png" alt="Cyber" />
+                <h3>Cyber Security</h3>
+                <a href="#">See Programs ›</a>
+              </div>
+              <div class="card">
+                <img src="assets/img/sec-five-icon (5).png" alt="Design" />
+                <h3>Design</h3>
+                <a href="#">See Programs ›</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section></section> -->
+    <section>
+      <div class="contener">
+        <div class="sec-six d-flex">
+          <div class="sec-six-text">
+            <h4>Upskill with our Free <br />Resources</h4>
+            <p>
+              Instructors from around the world teach millions of students on
+              Troopy Stack. We provide the tools and skills to teach what you
+              love. And you can also achieve your goal with us.
+            </p>
+            <button>Explore Now</button>
+          </div>
+          <div>
+            <img src="/assets/img/Background (1).png" alt="" width="120%" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------------------ <section></section> ------------------------------------------>
+
+    <section>
+      <div class="contener">
+        <div class="sec-seven">
+          <div class="sec-seven-text">
+            <div>
+              <div>
+                <h4>courses</h4>
+                <h5></h5>
+                <p>Choose from hundreds of courses from specialist organizations</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
