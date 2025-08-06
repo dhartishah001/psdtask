@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1400px;
+    margin: 0 auto;
+
+}
+.navbar {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9999999999999999) 85%, rgba(0, 0, 0, 0.9999999999999999) 100%);
+    align-items: center;
+    
+}
+.background-img{
+    background-image: url(../img/hero-sec-img.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+     
+}
+ul li{
+    
+    list-style: none;
+    color: white;
+    padding: 20px;
+}
+.d-flex{
+    display: flex;
+}
+.jsc{
+    justify-content: space-around;
+}
+body{
+    font-family: sans-serif;
+}
+/* section */
+.hero-sec-text{
+    /* margin: 100px 0; */
+    color: white;
+}
+.hero-sec-text h1{
+    margin: 50px 0;
+    width:45%;
+    /* color: white; */
+    font-size: 80px;
+
+}
+.hero-sec-text p{
+
+    font-size: 30px;
+    width: 40%;
+    margin:50px 0;
+
+}
+.hero-sec-text button{
+    color: white;
+    padding: 20px 70px;
+   border-radius: 30px;
+background-color: #f64b3c;
+margin: 100px 0;
+}
+
+/* section */
+.sec-two{
+    color: #f64b3c;
+    text-align: center;
+    background-color: #f6eedf;
+    background-image: url(../img/sec-two-img.png);
+}
+.sec-two h2{
+    font-size: 40px;
+}
+.sec-two p{
+    font-size: 20px;
+    width: 50%;
+    margin:  0 auto;
+}
